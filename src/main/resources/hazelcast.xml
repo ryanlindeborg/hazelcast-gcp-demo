@@ -43,10 +43,7 @@
             <ports>0</ports>
         </outbound-ports>
         <join>
-            <multicast enabled="true">
-                <multicast-group>224.2.2.3</multicast-group>
-                <multicast-port>54327</multicast-port>
-            </multicast>
+            <multicast enabled="false" />
             <tcp-ip enabled="false">
                 <interface>127.0.0.1</interface>
                 <member-list>
@@ -65,8 +62,7 @@
                 <tag-key>type</tag-key>
                 <tag-value>hz-nodes</tag-value>
             </aws>
-            <gcp enabled="false">
-                <zones>us-east1-b,us-east1-c</zones>
+            <gcp enabled="true">
             </gcp>
             <azure enabled="false">
                 <client-id>CLIENT_ID</client-id>

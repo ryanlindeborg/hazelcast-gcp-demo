@@ -16,6 +16,8 @@
 
     <properties>
         <java.version>11</java.version>
+        <hazelcast.version>4.0</hazelcast.version>
+        <hazelcast.gcp.version>2.0</hazelcast.gcp.version>
     </properties>
 
     <dependencies>
@@ -34,6 +36,17 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast</artifactId>
+            <version>${hazelcast.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast-gcp</artifactId>
+            <version>${hazelcast.gcp.version}</version>
         </dependency>
     </dependencies>
 
