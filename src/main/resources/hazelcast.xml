@@ -63,6 +63,8 @@
                 <tag-value>hz-nodes</tag-value>
             </aws>
             <gcp enabled="true">
+                <zones>us-east1-b</zones>
+                <hz-port>5701-5708</hz-port>
             </gcp>
             <azure enabled="false">
                 <client-id>CLIENT_ID</client-id>
