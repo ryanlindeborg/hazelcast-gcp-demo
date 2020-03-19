@@ -25,8 +25,6 @@ public class DemoApplication {
         return args -> {
             // Hazelcast Getting Started Code
             Config cfg = new Config();
-            cfg.setProperty("hazelcast.rest.enabled", "true");
-            System.setProperty("hazelcast.rest.enabled", "true");
             HazelcastInstance instance = Hazelcast.newHazelcastInstance(cfg);
             Map<Integer, String> mapCustomers = instance.getMap("customers");
             mapCustomers.put(1, "Joe");
