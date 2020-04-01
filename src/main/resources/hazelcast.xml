@@ -63,8 +63,11 @@
                 <tag-value>hz-nodes</tag-value>
             </aws>
             <gcp enabled="true">
+                <private-key-path>/home/name/service/account/key.json</private-key-path>
+                <projects>hazelcast</projects>
                 <zones>us-east1-b</zones>
                 <hz-port>5701-5708</hz-port>
+                <use-public-ip>true</use-public-ip>
             </gcp>
             <azure enabled="false">
                 <client-id>CLIENT_ID</client-id>
