@@ -63,7 +63,7 @@
                 <tag-value>hz-nodes</tag-value>
             </aws>
             <gcp enabled="true">
-                <private-key-path>/home/name/service/account/key.json</private-key-path>
+                <private-key-path>/Users/ryanlindeborg/Desktop/hazelcast/hazelcast-gcp/keys/hazelcast-270703-6367b9365412.json</private-key-path>
                 <projects>hazelcast</projects>
                 <zones>us-east1-b</zones>
                 <hz-port>5701-5708</hz-port>
